@@ -8,8 +8,8 @@ function calcular()
 	{
 		document.getElementById("salida").innerHTML = "Muy bien squad!";
 	}
-    else{
+    else
+    {
         document.getElementById("salida").innerHTML =  "Pueden hacerlo mejor.";
-		}
+    }
 }
-
