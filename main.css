@@ -1,0 +1,16 @@
+.container
+{
+    margin:10 %;
+    padding: 2%;
+    font-family: 'Aref Ruqaa', serif;
+    font-size: 17px;
+    background: #eb00ff;
+}
+.col-md-6 , .col-md-4
+{
+    padding-top: 5%;
+}
+.container input
+{
+    margin-left: 3px;
+}
