@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,19 +16,22 @@
     <div class="container">
         <h1 class="text-center">Objetivo del Squad: 80%</h1>
         <div class="row">
+           <h4>Tu squad tiene como objetivo obtener al menos 80% de puntos en el siguiente ejercicio. Escribe una funcion que de acuerdo a la cantidad de puntos que obtuvo en squad y la cantidad maxima de puntos disponibles, retorne el mensaje "Muy bien scuat!"si pasaron o igualaron 80% o "pueden hacerlo mejor." si no pasaron o alcanzaron el 80%.</h4>
             <div class="col-md-6 col-xs-6" >
+             
             <p>
-                <label for="">Puntos Squad:</label>
-                <input type="text" id="puntos_squad">
+                <label for="">Ingresa el puntaje de tu squad</label>
+                <input type="text" id="puntos_squad" placeholder=" puntaje de tu squad">
             </p>
             <p>
                 <label for="">Cantidad máxima de puntos:</label>
-                <input type="text" id="max_puntos">
+                <input type="text" id="max_puntos" placeholder="puntaje máximo">
+                
             </p>
             </div>
             <div class="col-md-4 col-xs-4">
                 <p>
-                    <button onclick="calcular()">Calcular</button>
+                    <button type="button" class="btn btn-warning" onclick="calcular()">Calcular</button>
                 </p>
             <h1 id="salida"></h1>
             </div>
